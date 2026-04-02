@@ -611,7 +611,7 @@ async function shareCard() {
     text += phrases.slice(r * 5, r * 5 + 5).join(' | ') + '\n';
   }
   text += `\n${bingoLines.size} bingo(s) | ${meetingsSurvived} meetings survived`;
-  text += '\n\nhttps://corpobingo.quick.shopify.io';
+  text += '\n\nhttps://kgurevich.github.io/corpobingo';
 
   try {
     await navigator.clipboard.writeText(text);
